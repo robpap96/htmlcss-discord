@@ -207,25 +207,33 @@ header {
       MAIN
 *****************/    
 section {
-    padding: 40px 0;
+    padding: 140px 0;
 }
 section:nth-child(2n) {
     background-color: #D3D3D3;
 }
 .row {
     display: flex;
-
 }
 .col-big {
     width: 60%;
 }
 .col-small {
-    width: 40%;
+    padding-top: 40px;
+    width: 25%;
+    line-height: 27px;
+    font-weight: 100;
 }
+
 .box {
     max-width: 1200px;
     height: 900px;
     margin: auto;
+}
+.col-small h2 {
+    line-height: 50px;
+    font-size: 40px;
+    margin-bottom: 50px;
 }
 /*****************
       FOOTER
