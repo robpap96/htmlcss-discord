@@ -212,6 +212,9 @@ section {
 section:nth-child(2n) {
     background-color: #D3D3D3;
 }
+.voice-connected .col-small {
+    margin-right: 150px;
+}
 .row {
     display: flex;
 }
@@ -222,7 +225,7 @@ section:nth-child(2n) {
     padding-top: 40px;
     width: 25%;
     line-height: 27px;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .box {
@@ -235,6 +238,7 @@ section:nth-child(2n) {
     font-size: 40px;
     margin-bottom: 50px;
 }
+
 /*****************
       FOOTER
 *****************/ 
