@@ -139,6 +139,10 @@ button {
     background-color: #7289da;
     color: white;
 }
+#btn-reg {
+    background-color: #7289da;
+    color: white;
+}
 /*****************
       HEADER
 *****************/  
@@ -275,8 +279,9 @@ section:nth-child(2n) {
 *****************/ 
 
 .footer-top {
-    padding-top: 15px;
+    padding-top: 60px;
     padding-bottom: 45px;
+    border-bottom: 2px solid #4f5d8c;
 }
 .col-big-footer {
     width: 78%;
@@ -294,7 +299,6 @@ section:nth-child(2n) {
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 30px;
-    border-top: 2px solid #eeeeee ;
     border-bottom: 2px solid #eeeeee ;
 }
 .row-footer {
@@ -305,6 +309,8 @@ section:nth-child(2n) {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1200px;
+    padding-bottom: 60px;
 }
 .logo-bottom {
     text-align: center;
