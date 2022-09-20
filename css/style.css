@@ -112,6 +112,28 @@ body{
     border: 2px dashed black ;
     background-color: #ffb6c1;
 } */
+
+/*****************
+      BUTTONS
+*****************/  
+button {
+    border-radius: 50px;
+    border: none;
+}
+.btn-login {
+    line-height: 40px;
+    padding: 0px 16px;
+}
+.btn-hero {
+    line-height: 50px;
+    padding: 0px 16px;
+    font-size: 15px;
+    margin: 0 10px;
+}
+#browser-link {
+    background-color: #23272a;
+    color: white;
+}
 /*****************
       HEADER
 *****************/  
@@ -160,22 +182,23 @@ body{
 }
 .hero{
     margin: auto;
-    max-width: 900px;
-    padding: 40px 0;
+    max-width: 800px;
+    padding: 50px 0;
+    text-align: center;
 }
 header {
     padding: 16px 0;
 }
-/*****************
-      BUTTONS
-*****************/  
-button {
-    border-radius: 50px;
-    border: none;
+.hero h1 {
+    font-size: 45px;
+    color: white;
+    margin: 30px 0;
 }
-.btn-login {
-    line-height: 40px;
-    padding: 0px 16px;
+.hero p {
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
 }
 
 
