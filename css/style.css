@@ -63,10 +63,18 @@ body{
     background-color: #FCC0CB;
 }
 .debug .row {
+    border: 2px dashed black;
     height: 400px;
 }
 .debug .box {
+    border: 2px dashed black;
     background-color: #228b22;
+}
+.debug .col-big {
+    border: 2px dashed black;
+}
+.debug .col-small {
+    border: 2px dashed black;
 }
 .debug footer {
     border-bottom: 2px solid white ;
@@ -74,14 +82,20 @@ body{
 } 
 
 .debug .row-footer {
+    border: 2px dashed black;
     height:580px;
 }  
 .debug .col-big-footer {
     height: 580px;
     background-color: #f08080;
+    border: 2px dashed black;
 }
 .debug .col-small-footer {
     background-color: #20b2aa;
+    border: 2px dashed black;
+}
+.debug .col-smaller {
+    border: 2px dashed white;
 }
 .debug .last-div {
     background-color: #7fffd4;
@@ -157,19 +171,15 @@ section:nth-child(2n) {
 }
 .row {
     display: flex;
-    border: 2px dashed black;
 
 }
 .col-big {
-    border: 2px dashed black;
     width: 60%;
 }
 .col-small {
-    border: 2px dashed black;
     width: 40%;
 }
 .box {
-    border: 2px dashed black;
     max-width: 1200px;
     height: 900px;
     margin: auto;
@@ -183,15 +193,12 @@ section:nth-child(2n) {
     padding-bottom: 45px;
 }
 .col-big-footer {
-    border: 2px dashed black;
     width: 70%;
 }
 .col-small-footer {
-    border: 2px dashed black;
     width: 30%;
 }
 .col-smaller {
-    border: 2px dashed white;
     width: 25%;
 }
 .footer-bottom {
@@ -204,7 +211,6 @@ section:nth-child(2n) {
 }
 .row-footer {
     display: flex;
-    border: 2px dashed black;
 
 }
 .last-div {
