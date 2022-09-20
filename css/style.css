@@ -5,7 +5,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,13 +17,16 @@
 
 }
 body{
+    background-image: url('../img/jumbo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
     padding: 20px;
 }
 
 /*****************
       DEBUG
 *****************/    
-.debug .header-top{
+/* .debug .header-top{
     height: 80px;
     background-color:#ADD8E6;
 }
@@ -109,7 +111,7 @@ body{
 .debug .bottone {
     border: 2px dashed black ;
     background-color: #ffb6c1;
-}
+} */
 /*****************
       HEADER
 *****************/  
@@ -126,9 +128,26 @@ body{
 .logo {
     width: 20%;
 }
+.img {
+    height: 34px;
+}
 .nav-bar {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
+}
+.nav-bar ul {
+    font-size: 16px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.nav-bar ul li a {
+    color: white;
+    text-decoration: none;
 }
 .login {
     text-align: right;
@@ -138,7 +157,6 @@ body{
     padding: 40px 0;
     margin: auto;
     height: 500px;
-    border-bottom: 4px solid #ADD8E6;
 }
 .hero{
     margin: auto;
@@ -148,15 +166,17 @@ body{
 header {
     padding: 16px 0;
 }
-/* main-nav ul {
-    display: flex;
-    justify-content: center;
+/*****************
+      BUTTONS
+*****************/  
+button {
+    border-radius: 50px;
+    border: none;
 }
-.nav-bar ul li {
-    text-decoration: none;
-
-    color: inherit;
-} */
+.btn-login {
+    line-height: 40px;
+    padding: 0px 16px;
+}
 
 
 
